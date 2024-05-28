@@ -16,7 +16,7 @@ const getTopics = async () => {
   } catch (error) {
     console.log("Error loading topics: ", error);
   }
-  return getTopics;
+  // return getTopics;
 };
 
 export default async function TopicsList() {
